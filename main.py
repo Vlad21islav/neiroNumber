@@ -223,7 +223,7 @@ screen = pygame.display.set_mode((200, 200), flags=pygame.RESIZABLE)
 pygame.display.set_caption('Mars protection')
 width, height = pygame.display.get_surface().get_size()
 
-path = ''
+path = 'C:/Users/VLAD/PycharmProjects/neroset/'
 sqr_size = int(height / 29.6)
 sqrs = 28 * 28
 
@@ -238,7 +238,7 @@ square_black = pygame.transform.scale(pygame.image.load(path + 'images/images/sq
 
 square_rect = []
 list_sqr = ([0] * sqrs)
-label = pygame.font.Font(path + 'C:/Users/VLAD/PycharmProjects/Mars protaction/fonts/planet_font.ttf',
+label = pygame.font.Font('C:/Users/VLAD/PycharmProjects/Mars protaction/fonts/planet_font.ttf',
                          20)
 
 output = '0.5'
